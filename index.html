@@ -4,14 +4,15 @@
   <head>
     <meta charset="utf-8">
     <title>Wikipedia Viewer</title>
-    <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
-  <body>
+  <body class="text-center">
     <h1>Wikipedia Viewer</h1>
-    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random wiki article</a>
+    <a class="btn btn-info" id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random wiki article</a>
     <input id="searchQuery" type="text">
-    <button id="submitButton">Sumbit</button>
+    <button id="submitButton" class="btn btn-primary">Sumbit</button>
     <div id="queryResults"></div>
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"

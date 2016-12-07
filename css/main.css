@@ -1,0 +1,45 @@
+body {
+  background: #3b1261;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+#random {
+  display: block;
+  color: white;
+  width: 150px;
+  margin: 2% auto;
+}
+
+#random:hover {
+  background: #009999;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: white
+}
+
+.link {
+  background: #6666ff;
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link:hover {
+  background: #3232ff;
+}
+
+#searchQuery {
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  color: black;
+}

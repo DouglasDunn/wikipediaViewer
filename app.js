@@ -15,7 +15,7 @@ $("#submitButton").on("click", function(e) {
       description = results[prop].extract;
       pageid = results[prop].pageid;
 
-      $("#queryResults").append("<a href='" + page + pageid + "' target='_blank'><div class='link'><p>" + title + "</p><p>" + description + "</p></div></a>");
+      $("#queryResults").append("<a href='" + page + pageid + "' target='_blank'><div class='link'><h3>" + title + "</h3><p>" + description + "</p></div></a>");
     }
   });
 });
